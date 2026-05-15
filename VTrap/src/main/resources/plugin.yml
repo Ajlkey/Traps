@@ -1,0 +1,17 @@
+name: VTrap
+version: '2.0'
+main: me.ki.vtrap.Main
+api-version: '1.16'
+
+commands:
+  voidtrap:
+    description: Игрок падает в бездну с прикольным титлом
+    usage: /voidtrap <player>
+    permission: VoidTrap.Usage
+    permission-message: Брооу. У тяя нету прав!
+
+  flytrap:
+    description: Игрок подлетает вверх на 2000 блоков
+    usage: /flytrap <player>
+    permission: FlyTrap.Usage
+    permission-message: Ну прав у тяя нету!
